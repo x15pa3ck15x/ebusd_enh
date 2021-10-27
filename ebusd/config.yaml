@@ -20,7 +20,7 @@ options:
   scanconfig: true
   foreground: true
 schema:
-  device: "device(subsystem=tty)"
+  device: "str?"
   port: "port?"
   latency: "int(0,10000)?"
   readonly: "bool?"
